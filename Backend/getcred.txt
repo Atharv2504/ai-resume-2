@@ -1,0 +1,22 @@
+MongoDB Credentials Paste Guide (one by one)
+
+Step 1) MongoDB Username
+Paste here: ai-resume
+
+Step 2) MongoDB Password
+Paste here: OQqUcEDgh5jTPMGo
+
+Step 3) Cluster Host (example: cluster0.xxxxx.mongodb.net)
+Paste here:
+
+Step 4) Database Name (example: resume_builder)
+Paste here:
+
+Step 5) Final Connection String
+Format:
+mongodb+srv://<USERNAME>:<PASSWORD>@<CLUSTER_HOST>/<DB_NAME>?retryWrites=true&w=majority
+
+Paste final URI here:mongodb+srv://<db_username>:<db_password>@ai-resume-maker.9p3csvf.mongodb.net/?appName=ai-resume-maker
+
+Then copy final URI to .env as:
+MONGODB_URI=<YOUR_FINAL_URI>
